@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+
+
+
+body{
+    background: fixed;
+    background-image: url(imagens/fundo-galaxia.jpg) ;
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+}
+
+header h1{
+    font-family: "Bungee Shade";
+    color: white;
+}
+
+main{
+    display: flex;
+}
+
+#espacoMapa{
+    background-color: white;
+    flex: 20%;
+
+    margin-right: 10px;
+}
+
+#espacoModelo{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    flex: 70%;
+}
+
+#dados{
+    background-color: rgba(128, 128, 128, 0.411);
+    border-radius: 25px;
+    flex: 10%;
+
+    margin-left: 10px;
+
+    font-family: "Roboto Flex";
+}
+
